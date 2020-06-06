@@ -1,0 +1,108 @@
+.full {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  position: relative;
+}
+#headerimg {
+  width: 100%;
+}
+.headertitle {
+  padding-left: 200px;
+  position: absolute;
+  bottom: 0px;
+  font-family: 'Abril Fatface', cursive;
+  color: #222222;
+}
+.headertitle h1 {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.headertitle h3 {
+  font-size: 20px;
+  margin-bottom: 0px;
+
+}
+
+main {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+article {
+  margin: 20px 50px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222222;
+}
+.main ul {
+  list-style: square;
+}
+
+.article p {
+  font-size: 11px;
+  color: #222222;
+  margin: 20px 0px;
+}
+.article li {
+  font-size: 11px;
+  color: #222222;
+  margin: 5px 0px;
+}
+.article h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 35px 0px;
+}
+.article h2 {
+  font-size: 14px;
+  margin: 0px;
+}
+.article h3 {
+  font-style: italic;
+  margin: 0px;
+  font-size: 13px;
+}
+
+.article1 p {
+  font-size: 14px;
+  font-weight: normal;
+  color: #222222;
+  margin: 0px;
+}
+.article1 li {
+  font-size: 15px;
+  color: #222222;
+  margin: 5px 0px;
+}
+
+.important {
+  font-weight: bold;
+}
+
+.quote {
+  background: #222;
+  color: white;
+  position: relative;
+  padding-top: 0px;
+}
+.quote h1 {
+  font-family: 'Merriweather', serif;
+  padding: 35px;
+}
+.quote p {
+  position: absolute;
+  font-family: 'Abril Fatface', cursive;
+  margin-top: 0px;
+  top: 0px;
+  left: 10px;
+  font-size: 60px;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid black;
+}

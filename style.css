@@ -1,108 +1,121 @@
+/* Headers:
+font-family: 'Libre Franklin', sans-serif;
+
+Text:
+font-family: 'Cormorant Garamond', serif;
+*/
+/*Full*/
 .full {
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+padding: 0px;
+border: 1px black solid;
+background: white;
 }
-
-header {
-  position: relative;
-}
-#headerimg {
-  width: 100%;
-}
-.headertitle {
-  padding-left: 200px;
-  position: absolute;
-  bottom: 0px;
-  font-family: 'Abril Fatface', cursive;
-  color: #222222;
-}
-.headertitle h1 {
-  font-size: 40px;
-  margin-top: 0px;
-  margin-bottom: 30px;
-}
-.headertitle h3 {
-  font-size: 20px;
-  margin-bottom: 0px;
-
-}
-
-main {
-  margin-left: 150px;
-  margin-right: 150px;
-}
-article {
-  margin: 20px 50px;
-  font-family: 'Josefin Sans', sans-serif;
-  color: #222222;
-}
-.main ul {
-  list-style: square;
-}
-
-.article p {
-  font-size: 11px;
-  color: #222222;
-  margin: 20px 0px;
-}
-.article li {
-  font-size: 11px;
-  color: #222222;
-  margin: 5px 0px;
-}
-.article h1 {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 15px;
-  margin: 35px 0px;
-}
-.article h2 {
-  font-size: 14px;
-  margin: 0px;
-}
-.article h3 {
-  font-style: italic;
-  margin: 0px;
-  font-size: 13px;
-}
-
-.article1 p {
-  font-size: 14px;
-  font-weight: normal;
-  color: #222222;
-  margin: 0px;
-}
-.article1 li {
-  font-size: 15px;
-  color: #222222;
-  margin: 5px 0px;
-}
-
-.important {
-  font-weight: bold;
-}
-
-.quote {
-  background: #222;
-  color: white;
-  position: relative;
-  padding-top: 0px;
-}
-.quote h1 {
-  font-family: 'Merriweather', serif;
-  padding: 35px;
-}
-.quote p {
-  position: absolute;
-  font-family: 'Abril Fatface', cursive;
-  margin-top: 0px;
-  top: 0px;
-  left: 10px;
-  font-size: 60px;
-}
-
 hr {
-  width: 100%;
-  border: 1px solid black;
+    color: #076721;
+    border: 1px #076721 solid;
+    width: 90%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+a {
+    text-decoration: none;
+}
+
+/*Header*/
+header {
+font-family: 'Libre Franklin', sans-serif;
+}
+
+header h1{
+color: black;
+text-align: center;
+margin: 0px;
+padding-top: 20px;
+font-size: 25px;
+}
+header h2{
+    color: black;
+    text-align: center;
+    margin: 0px;
+    font-size: 18px;
+    }
+header h3{
+    color: black;
+    text-align: center;
+    margin: 0px;
+    font-size: 15px;
+    }
+
+/*Main*/
+main h1{
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin: 0px;
+}
+main h2 {
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: left;
+    font-size: 17px;
+    margin: 10px 30px;
+}
+.weekhr {
+    margin-top: 5px;
+    width: 100px;
+}
+main a {
+    color: black;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.a {
+    background: #2CD55A;
+    border: 2px #076721 solid;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 8px;
+    height: 30px;
+    width: 250px;
+    margin: 0px;
+}
+main p{
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.p {
+    text-align: left;
+    padding: 0px;
+    padding-top: 3px;
+    width: 250px;
+    margin: 0px;
+}
+
+.webcard {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 5px 30px;
+}
+
+.daycard {
+    background: #076721;
+    padding: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }

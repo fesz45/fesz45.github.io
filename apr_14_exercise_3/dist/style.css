@@ -1,0 +1,11 @@
+div {
+  background: #0D91A1 ;
+  color: #015668;
+  border: 5px solid #7DCE94;
+  margin: 30px;
+  height: 90px;
+  width: 300px;
+  padding: 30px;
+  font-size: 35px;
+  font-family: 'Kaushan Script', cursive;
+}

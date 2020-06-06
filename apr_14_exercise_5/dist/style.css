@@ -1,0 +1,31 @@
+article {
+  font-family: 'Acme', sans-serif;
+  font-size: 40px;
+  color: white;
+  border: 8px solid #4285f4;
+  width: 380px;
+  margin: 15px;
+}
+
+.N {
+  background: #E67676;
+}
+
+.E {
+  background: #F2F062;
+}
+
+.S {
+  background: #A9E6E6;
+}
+
+.W {
+  background: #7692E4;
+}
+
+p {
+  margin: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}

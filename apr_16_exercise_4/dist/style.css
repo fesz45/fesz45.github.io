@@ -1,0 +1,48 @@
+.itemgreen {
+  width: 150px;
+  height: 150px;
+  background: #51d400;
+}
+.itemyellow {
+  width: 150px;
+  height: 150px;
+  background: #ffd62a;
+}
+.itempurple {
+  width: 150px;
+  height: 150px;
+  background: #b02afe;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+.container2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin: 15px;
+}
+.container3 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  margin: 15px;
+}
+.container4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 15px;
+}
+.container5 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 300px;
+  margin: 15px;
+}

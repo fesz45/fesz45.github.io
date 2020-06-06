@@ -1,0 +1,86 @@
+#main {
+  width: 600px;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card_holder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 180px;
+  background: #3CB878;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  box-shadow: 0px 0px 5px 2px grey;
+}
+
+.newsletter {
+  color: grey;
+  border: thin solid #CFCFCF;
+  padding: 10px;
+  position: relative;
+}
+
+.newsletter h3 {
+  margin-top: 0px;
+}
+
+#text {
+  width: 100%;
+  display: block;
+  height: 30px;
+  padding: 5px;
+  border: thin solid #cfcfcf;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  display: block;
+  color: white;
+  background: #3CB878;
+  border: none;
+  height: 30px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.link {
+  color: purple;
+  text-decoration: underline;
+}
+
+#accept {
+  position: relative;
+  top: 1px;
+}
+
+.closeing {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.question {
+  background: #3CB878;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}

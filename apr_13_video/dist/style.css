@@ -1,0 +1,35 @@
+.style_01 {
+	background: magenta;
+	color: white;
+}
+
+#style_02 {
+	background: lightblue;
+	color: orange;
+}
+
+#style_03 {
+	background: blue;
+	color: white;
+	margin: 5%;
+	padding: 40px;
+	border: 10px double lightblue;
+}
+
+#style_04 {
+	background: grey;
+	padding:10px;
+	hight: 60px;
+	width: 50%;
+}
+
+/*style_05*/
+
+input, label {
+	display: block;
+}
+
+#style_06 {
+	font-size: 40px;
+	font-family: 'Tangerine', cursive;
+}

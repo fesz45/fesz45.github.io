@@ -1,0 +1,37 @@
+main {
+  width: 450px
+}
+
+h1 {
+  color: #E46B73;
+  font-weight: bold;
+  margin-top: 10px;
+
+}
+
+h2 {
+  color: #9815DA;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+li {
+  margin: 5px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+.ol_1 {
+  text-decoration: underline;
+  color: #DA15D3;
+}
+
+.ol_2 {
+  text-decoration: underline;
+}
