@@ -1,12 +1,8 @@
-.full  {
-    width: 70%;
-    margin: 0px auto;
-}
 header {
     width: 100%;
+    height: auto;
     padding: 0px;
     position: relative;
-    height: auto;
 }
 img {
     width: 100%;
@@ -16,8 +12,8 @@ img {
     font-family: 'Abril Fatface', cursive;
     color: #222;
     position: absolute;
-    bottom: 40px;
-    left: 200px;
+    bottom: 10px;
+    left: 40px;
 }
 .headertext h2 {
     font-size: 30px;
@@ -27,15 +23,12 @@ img {
     font-size: 50px;
     margin: 0px;
 }
-main {
-    margin: 0px 170px;
+body {
     color: #222;
 }
-main p, li {
+p, li {
     font-size: 12px;
     text-align: justify;
-}
-main p, li {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 100;
     margin-top: 2px;
@@ -48,21 +41,21 @@ main p, li {
 .top li {
     font-size: 15px;
 }
- main h1, h2, h3 {
+h1, h2, h3 {
     font-family: 'Josefin Sans', sans-serif;
     margin-left: 25px;
 }
-main h1 {
+h1 {
     font-size: 23px;
     margin-top: 45px;
     margin-bottom: 25px;
 }
-main h2 {
+h2 {
     font-size: 18px;
     margin-top: 25px;
     margin-bottom: 5px;
 }
-main h3 {
+h3 {
     font-style: italic;
     font-size: 15px;
     margin-top: 5px;
@@ -82,6 +75,7 @@ main h3 {
     font-family: 'Merriweather', serif;
     font-size: 50px;
     font-style: normal;
+    text-align: left;
 }
 .qmark {
     font-family: 'Abril Fatface', cursive;
@@ -92,7 +86,13 @@ main h3 {
     top: -40px;
     left: -18px;
 }
-hr {
-    border: 2px solid black;
-    margin: 25px 0px;
+.horisontal {
+    display: flex;
+}
+.part {
+    width: 50%;
+}
+main {
+    width: 70%;
+    margin: 0px auto;
 }
